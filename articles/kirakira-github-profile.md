@@ -1,3 +1,11 @@
+---
+title: "GitHubProfileのページを可能な限りキラキラさせる方法"
+emoji: "🌠"
+type: "tech"
+topics: ["github", "githubprofile", "githubactions"]
+published: true
+---
+
 # GitHubProfileページとは
 
 GitHubの自分のProfileページを自由にカスタマイズできるのご存知ですか？？

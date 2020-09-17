@@ -12,7 +12,7 @@ GitHubの自分のProfileページを自由にカスタマイズできるのご�
 https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile
 
 ↓↓↓こういうやつです↓↓↓
-![](https://storage.googleapis.com/zenn-user-upload/nf057hszbpch06xn0pfih2xpu7zv)
+![](https://user-images.githubusercontent.com/8683947/93459495-c05de180-f91c-11ea-9a8d-35a9d7699f32.png =400x)
 
 ---
 
@@ -27,7 +27,7 @@ https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/ab
 [![yutakatay profile](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/yutakatay.png =250x)](https://github.com/yutakatay/yutakatay)
 
 全体をスクショしてみるとこんな感じです。
-![](https://storage.googleapis.com/zenn-user-upload/ysqdchwr2k2ba4o9edbiawop8n4o)
+![](https://user-images.githubusercontent.com/8683947/93459394-999fab00-f91c-11ea-9948-909ac89406bb.png)
 
 画像やグラフが多めでなんかすごいエンジニアな感じがしますよね！**（なお実際の実力が伴っているわけではない）**
 重複している情報もありますが、キラキラのためには仕方ありません。
@@ -42,7 +42,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 2. バッジ部分を作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/mjbbuigoc2lqh6swbuyab6ndsnqx)
+![](https://user-images.githubusercontent.com/8683947/93459392-999fab00-f91c-11ea-9dce-ae1d64bc3063.png)
 
 内容は
 - Profileページの閲覧カウンター数
@@ -86,7 +86,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 3. 上の方のグラフ部分を作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/r2dmzwp2qwq7ryict6f721mi471f =400x)
+![](https://user-images.githubusercontent.com/8683947/93459391-99071480-f91c-11ea-83f5-e1bd849a7232.png =400x)
 
 ここでは３つのサービスを使って活動実績を表示してます。
 
@@ -112,7 +112,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 4. スキル一覧っぽいのを作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/et90qbryzjlf6cvm14n1qqax2w6y)
+![](https://user-images.githubusercontent.com/8683947/93459384-97d5e780-f91c-11ea-9914-69f4b6dba21d.png)
 
 [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) からアイコン部分だけをもらいました。
 このサイトでそのまま作ってもいいんですが、結構ダサめに仕上がってキラキラ度が下がるので要注意です。
@@ -120,7 +120,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 5. 下の統計データっぽいところを作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/c5plughose5hogi9vuk41r7phvki =400x)
+![](https://user-images.githubusercontent.com/8683947/93459390-986e7e00-f91c-11ea-903c-37bffdd7f6c5.png =400x)
 
 ### wakatime
 

@@ -12,7 +12,7 @@ GitHubの自分のProfileページを自由にカスタマイズできるのご�
 https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile
 
 ↓↓↓こういうやつです↓↓↓
-![](https://storage.googleapis.com/zenn-user-upload/2t502oymx07migd18dzuph7ri0k9)
+![](https://storage.googleapis.com/zenn-user-upload/nf057hszbpch06xn0pfih2xpu7zv)
 
 ---
 
@@ -24,10 +24,10 @@ https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/ab
 # 私のGitHubProfileを晒す
 
 ここに私のProfileがありますので晒しておきます。
-[![yutakatay profile](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/yutakatay.png  =250x)](https://github.com/yutakatay/yutakatay)
+[![yutakatay profile](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/yutakatay.png =250x)](https://github.com/yutakatay/yutakatay)
 
 全体をスクショしてみるとこんな感じです。
-![](https://storage.googleapis.com/zenn-user-upload/itx2t5boqmrw69mrrmukosghuotr)
+![](https://storage.googleapis.com/zenn-user-upload/ysqdchwr2k2ba4o9edbiawop8n4o)
 
 画像やグラフが多めでなんかすごいエンジニアな感じがしますよね！**（なお実際の実力が伴っているわけではない）**
 重複している情報もありますが、キラキラのためには仕方ありません。
@@ -42,7 +42,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 2. バッジ部分を作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/9pgujuyikc2qm1mi13jrb7jx1bda)
+![](https://storage.googleapis.com/zenn-user-upload/mjbbuigoc2lqh6swbuyab6ndsnqx)
 
 内容は
 - Profileページの閲覧カウンター数
@@ -86,7 +86,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 3. 上の方のグラフ部分を作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/2yxlctxipfbb5r3btb5cqgb1fkhq =400x)
+![](https://storage.googleapis.com/zenn-user-upload/r2dmzwp2qwq7ryict6f721mi471f =400x)
 
 ここでは３つのサービスを使って活動実績を表示してます。
 
@@ -112,13 +112,15 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 
 ## 4. スキル一覧っぽいのを作成する
 
+![](https://storage.googleapis.com/zenn-user-upload/et90qbryzjlf6cvm14n1qqax2w6y)
+
 [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) からアイコン部分だけをもらいました。
 このサイトでそのまま作ってもいいんですが、結構ダサめに仕上がってキラキラ度が下がるので要注意です。
 
 
 ## 5. 下の統計データっぽいところを作成する
 
-![](https://storage.googleapis.com/zenn-user-upload/qa6tsg3a0x2v84k7g5xd0mg1pk65 =400x)
+![](https://storage.googleapis.com/zenn-user-upload/c5plughose5hogi9vuk41r7phvki =400x)
 
 ### wakatime
 

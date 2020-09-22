@@ -180,7 +180,7 @@ Neovimのコントリビューターで人気者の[TJ](https://github.com/tjdev
 Neovimでしか使えないが、Luaの高速な動作とリッチな機能が売り。fzf-preview.vimに影響を受けているだけあって、色付きプレビュー, Deviconなど機能盛りだくさん。
 fzf-previewと差別化できる点としては、treesitterやNeovimLSPと連携できる点が挙げられる。Neovimコントリビューターが作っているだけあって本体と密接につながっていけるのは今後の成長を含めて強みだと考えられる。
 
-デメリットは、MRUのデータソースがないなどデータソースが少ないこと。また、拡張するにはLuaの知識が必要。
+デメリットは、MRUのデータソースがない(`:oldfiles`には対応しているので簡単なMRUとしては使える模様)などデフォルトで提供されているデータソースが少ないこと。また、拡張するにはLuaの知識が必要。
 
 #### 8. [CocList](https://github.com/neoclide/coc-lists)
 

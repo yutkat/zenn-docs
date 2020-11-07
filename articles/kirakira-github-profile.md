@@ -132,7 +132,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 ### Profile-Readme-WakaTime（統計情報のサマリー用）
 
 何時間作業したかのサマリーをwakatimeから取得して画像化してくれるのが
-https://github.com/avinal/Profile-Readme-WakaTime
+https://github.com/tariksahni/coding-stats-wakatime
 です。画像は自分のリポジトリのimagesの下に作成されます。
 このツールはGitHubActionsを使っています。基本的にREADMEに書いてあるものをコピペするだけなので難しくはないはずです。参考に私の設定のリンクを貼っておきます。 https://github.com/yutakatay/yutakatay/blob/master/.github/workflows/main.yml
 

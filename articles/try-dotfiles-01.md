@@ -3,7 +3,7 @@ title: "GitHubでスター数の多いdotfilesを使ってみた"
 emoji: "⭐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["dotfiles", "zsh", "tmux", "vim", "neovim"]
-published: false
+published: true
 ---
 
 ## 企画趣旨

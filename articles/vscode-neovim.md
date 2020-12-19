@@ -89,6 +89,8 @@ VSCode上で[VSCodeVim](https://vim-jp.org/)を使うのもありかな。けど
 
 ## Neo Vim(VS Code Neovim)の概要
 
+名前は"Neo Vim"みたいです。本記事では紛らわしいのでNeo Vim(VS Code Neovim)に統一します。リポジトリ名はvscode-neovimです。Neovimとneovimとnvimは本物のNeovimになります。これから紹介するのはNeo Vimの方です。ちなみにNeoVimは今のところこの世にはありません。
+
 リポジトリは↓↓↓になります。
 https://github.com/asvetliakov/vscode-neovim/tree/3f45ff2a16ac76682d249ee48b55a8e42acbd957/vim
 

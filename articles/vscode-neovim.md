@@ -3,7 +3,7 @@ title: "超融合!時空を越えた絆 Neo Vim(VSCode)を試してみた"
 emoji: "🌪"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["neovim", "vscode", "vim"]
-published: false
+published: true
 ---
 
 ## 2020年のエディタ・IDE界

@@ -24,7 +24,7 @@ https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/ab
 # 私のGitHubProfileを晒す
 
 ここに私のProfileがありますので晒しておきます。
-[![yutakatay profile](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/yutakatay.png =250x)](https://github.com/yutakatay/yutakatay)
+[![yutkat profile](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutkat/yutkat.png =250x)](https://github.com/yutkat/yutkat)
 
 全体をスクショしてみるとこんな感じです。
 ![](https://user-images.githubusercontent.com/8683947/93459394-999fab00-f91c-11ea-9948-909ac89406bb.png)
@@ -56,30 +56,30 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 ここのほとんどのバッジは、 [shields.io](https://shields.io/) の https://shields.io/category/social とかから作成しているだけです。
 それ以外で使用しているのは、Profileの閲覧数は https://github.com/antonkomarev/github-profile-views-counter を、Qiitaのコントリビュート数は https://qiita.com/mikkame/items/f2c60d9caf8a8e38ec50 を利用させていただいています。
 
-私の[README.md](https://raw.githubusercontent.com/yutakatay/yutakatay/master/README.md)の↓↓↓の部分のユーザー名部分を変えればいいと思います。
+私の[README.md](https://raw.githubusercontent.com/yutkat/yutkat/master/README.md)の↓↓↓の部分のユーザー名部分を変えればいいと思います。
 
 ```html
 <p align="left"> 
-  <a href="https://github.com/yutakatay/yutakatay/">
-    <img src="https://komarev.com/ghpvc/?username=yutakatay" alt="yutakatay" />
+  <a href="https://github.com/yutkat/yutkat/">
+    <img src="https://komarev.com/ghpvc/?username=yutkat" alt="yutkat" />
   </a>
-  <a href="http://twitter.com/yutakatay">
-    <img height="20" src="https://img.shields.io/twitter/follow/yutakatay?label=Twitter&logo=twitter&style=flat" />
+  <a href="http://twitter.com/yutkat">
+    <img height="20" src="https://img.shields.io/twitter/follow/yutkat?label=Twitter&logo=twitter&style=flat" />
   </a>
-  <a href="https://github.com/yutakatay">
-    <img height="20" src="https://img.shields.io/github/followers/yutakatay?label=follow&logo=github&style=flat" />
+  <a href="https://github.com/yutkat">
+    <img height="20" src="https://img.shields.io/github/followers/yutkat?label=follow&logo=github&style=flat" />
   </a>
-  <a href="https://www.reddit.com/user/yutakatay">
-    <img height="20" src="https://img.shields.io/reddit/user-karma/combined/yutakatay?label=Reddit&logo=reddit&style=flat" />
+  <a href="https://www.reddit.com/user/yutkat">
+    <img height="20" src="https://img.shields.io/reddit/user-karma/combined/yutkat?label=Reddit&logo=reddit&style=flat" />
   </a>
-  <a href="https://stackoverflow.com/users/5720201/yutakatay">
+  <a href="https://stackoverflow.com/users/5720201/yutkat">
     <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/5720201?label=StackOverflow&logo=stack-overflow&style=flat" />
   </a>
-  <a href="http://qiita.com/yutakatay">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/yutakatay/posts.svg" />
+  <a href="http://qiita.com/yutkat">
+    <img height="20" src="https://qiita-badge.apiapi.app/s/yutkat/posts.svg" />
   </a>
-  <//qiita.com/yutakatay">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/yutakatay/contributions.svg" />
+  <//qiita.com/yutkat">
+    <img height="20" src="https://qiita-badge.apiapi.app/s/yutkat/contributions.svg" />
   </a>
 </p>
 ```
@@ -135,7 +135,7 @@ https://docs.github.com/ja/github/setting-up-and-managing-your-github-profile/ma
 https://github.com/avinal/Profile-Readme-WakaTime
 
 です。画像は自分のリポジトリのimagesの下に作成されます。
-このツールはGitHubActionsを使っています。基本的にREADMEに書いてあるものをコピペするだけなので難しくはないはずです。参考に私の設定のリンクを貼っておきます。 https://github.com/yutakatay/yutakatay/blob/master/.github/workflows/main.yml
+このツールはGitHubActionsを使っています。基本的にREADMEに書いてあるものをコピペするだけなので難しくはないはずです。参考に私の設定のリンクを貼っておきます。 https://github.com/yutkat/yutkat/blob/master/.github/workflows/main.yml
 
 本来はよく使われている
 [waka-readme](https://github.com/athul/waka-readme)

@@ -161,13 +161,13 @@ Neovimもおしゃれな見た目でプラグインも50個くらい入ってた
 
 偉そうに寸評してるけどお前のはどうやねんって思ってる人もいるので一応貼っておきます。
 
-[![yutakatay/dotfiles](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/dotfiles.png =250x)](https://github.com/yutakatay/dotfiles)
+[![yutkat/dotfiles](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutkat/dotfiles.png =250x)](https://github.com/yutkat/dotfiles)
 
 ArchLinuxのdockerで
 ```bash
 pacman -Sy
 pacman -S git sudo
-git clone https://github.com/yutakatay/dotfiles.git
+git clone https://github.com/yutkat/dotfiles.git
 ./dotfiles/.bin/dotinstall.sh install
 ```
 すれば動くと思います。

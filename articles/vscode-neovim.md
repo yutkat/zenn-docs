@@ -29,7 +29,7 @@ Vimは起動が速くていいですね（けれども最近は他も結構速�
 
 ### 私の開発環境
 
-[![yutakatay/dotfiles](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutakatay/dotfiles.png =250x)](https://github.com/yutakatay/dotfiles)
+[![yutkat/dotfiles](https://github-link-card.s3.ap-northeast-1.amazonaws.com/yutkat/dotfiles.png =250x)](https://github.com/yutkat/dotfiles)
 
 - ちょっとだけ設定がんばってる(Neo)Vimmer
 - OSはArchLinux

@@ -90,7 +90,7 @@ https://wezfurlong.org/wezterm/config/lua/window/set_config_overrides.html
 標準で搭載されているテーマが無茶苦茶多いです。
 https://wezfurlong.org/wezterm/colorschemes/index.html
 
-もちろん、背景画像の設定は透過も普通にできます。
+もちろん、背景画像の設定や透過も普通にできます。
 https://wezfurlong.org/wezterm/config/appearance.html
 
 ### 3. 気が利いてる機能が揃っててすごい

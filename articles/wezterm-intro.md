@@ -166,6 +166,19 @@ https://wezfurlong.org/wezterm/
 
 個人プロジェクトでここまでドキュメントが整備されているものはなかなか見ることはできません。
 
+### 6. 日本語がインライン入力できる
+
+Windows とか Mac とかの OS を使っている人には理解できないかもしれませんが、Linux ユーザーは日本語入力するときに補完ウィンドウしか表示されないという状態で日本語入力していました。
+
+![cannot_input](https://user-images.githubusercontent.com/8683947/160841562-cfc9578f-6529-45c8-a01b-9a60b4234262.png)
+_alacritty だと日本語のインライン入力できない_
+
+それがなんとこのリリースから改善されちゃんとインライン入力されるようになりました！
+https://wezfurlong.org/wezterm/changelog.html#20220319-142410-0fcdea07
+
+![inline_input](https://user-images.githubusercontent.com/8683947/160840059-b3c0f7d2-4891-48f2-aa24-8766ad04eb30.png)
+_最新の wezterm だとできる！_
+
 ## wezterm がまだイマイチなところ(alacritty + tmux と比べて)
 
 wezterm を持ち上げまくりましたが、alacritty + tmux を完全代用する上でまだ機能が足りてない部分は正直ちょこちょことあります。

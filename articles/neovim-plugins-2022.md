@@ -12,14 +12,14 @@ published: true
 https://daisuzu.hatenablog.com/entry/2012/05/06/204019
 から借用しました。
 
-## 注意点
+# 注意点
 
 - プラグイン自体の説明はあまりするつもりはないので、GitHub の README を読むなり使ってみるなりしてみてください。
 - 私は結構頻繁にプラグイン乗り換えるので 2022 春バージョンと思ってください。
 - 私が言うのもあれですが、プラグインはいっぱい入れればいいというものではありません。ひとつひとつを使いこなすのが大事です。多ければそれだけ管理も大変です。
 - 競合があるプラグインは比較して選定しているつもりですが、あくまでも私の趣味の範囲での選定となります。絶対的な指標があってこっちの方が優れているといった判断をしているわけではありません。
 
-## 私の Neovim の使い方
+# 私の Neovim の使い方
 
 使い方が違うと参考にならないことが多いため前提としてどういうふうに Neovim を使っているか書いておきます。
 
@@ -34,7 +34,7 @@ https://daisuzu.hatenablog.com/entry/2012/05/06/204019
 - ほぼすべての作業の起点はファジーファインダーです。
 - バッファ移動はファジーファインダーかバッファーラインを使います。
 
-## 私のプラグイン選びの基本方針
+# 私のプラグイン選びの基本方針
 
 - Linux+Neovim で動くものを入れている
 - 基本的に同じ機能のプラグインは 2 つ入れない
@@ -46,20 +46,20 @@ https://daisuzu.hatenablog.com/entry/2012/05/06/204019
 - あまり過度にカスタマイズしすぎないようにしている（別プラグインに乗り換えるのが大変になるため）
 - 使いそうなものはとりあえずインストールしておく（LazyLoad にしておけば実害はないので）
 
-## プラグイン一覧
+# プラグイン一覧
 
 カテゴリごとに名前: コメントの順で列挙していきます。コメントは機能の説明というよりは私の感想です。
 
 カテゴリの種類は以前書いたものにだいたい整合しているはずです。
 https://qiita.com/yutkat/items/f19b2a0a962a587db5cf
 
-### パッケージマネージャー
+## パッケージマネージャー
 
 1. [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim): Neovim で一番シェアが高いパッケージマネージャー。設定の関係性がやや複雑だが遅延読み込みもできて便利。
 
 https://github.com/wbthomason/packer.nvim
 
-### Library
+## Library
 
 2. [tpope/vim-repeat](https://github.com/tpope/vim-repeat): ドットリピート対応するときに必要なやつ。
 
@@ -89,15 +89,15 @@ https://github.com/kyazdani42/nvim-web-devicons
 
 https://github.com/rcarriga/nvim-notify
 
-### Colorscheme
+## Colorscheme
 
 9. [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim): 最近使ってる人が多い nord 系テーマ。
 
 https://github.com/EdenEast/nightfox.nvim
 
-### LSP と自動補完
+## LSP と自動補完
 
-#### 自動補完系
+### 自動補完系
 
 10. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp): 自動補完プラグイン。いろいろカスタマイズできて動作も速くて見た目もかっこいい。神。
 
@@ -175,7 +175,7 @@ https://github.com/ray-x/cmp-treesitter
 
 https://github.com/hrsh7th/cmp-cmdline
 
-#### LSP 関連
+### LSP 関連
 
 29. [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): nvim-lsp 用の設定。Neovim のネイティブ lsp 使うなら必須。
 
@@ -193,7 +193,7 @@ https://github.com/tamago324/nlsp-settings.nvim
 
 https://github.com/weilbith/nvim-lsp-smag
 
-#### LSP 用の UI
+### LSP 用の UI
 
 33. [tami5/lspsaga.nvim](https://github.com/tami5/lspsaga.nvim): LSP 関連の足りない UI だったりコマンドだったりを追加してくれる。他にも ray-x/navigator.lua とかもあるけどよく比較できていない。
 
@@ -215,7 +215,7 @@ https://github.com/EthanJWright/toolwindow.nvim
 
 https://github.com/j-hui/fidget.nvim
 
-#### AI 補完
+### AI 補完
 
 38. [github/copilot.vim](https://github.com/github/copilot.vim): Neovim で Copilot する。
 
@@ -225,7 +225,7 @@ https://github.com/github/copilot.vim
 
 https://github.com/zbirenbaum/copilot.lua
 
-### ファジーファインダー
+## ファジーファインダー
 
 40. [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim): たぶん Neovim で一番シェアが高いファジーファインダー。これがないと作業できないレベル。
 
@@ -263,7 +263,7 @@ https://github.com/nvim-telescope/telescope-media-files.nvim
 
 https://github.com/LinArcX/telescope-command-palette.nvim
 
-### Treesitter
+## Treesitter
 
 49. [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter): treesitter 本体。これがないと世界が色付き始めない。
 
@@ -305,7 +305,7 @@ https://github.com/vigoux/architext.nvim
 
 https://github.com/m-demare/hlargs.nvim
 
-#### Treesitter textobj & operator
+### Treesitter textobj & operator
 
 59. [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects): treesitter で textobject できる。
 
@@ -327,9 +327,9 @@ https://github.com/David-Kunz/treesitter-unit
 
 https://github.com/mizlan/iswap.nvim
 
-### 見た目関連
+## 見た目関連
 
-#### ステータスライン
+### ステータスライン
 
 64. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim): たぶんいちばんシェアが高いステータスライン。設定が短く済んで便利。
 
@@ -339,13 +339,13 @@ https://github.com/nvim-lualine/lualine.nvim
 
 https://github.com/SmiteshP/nvim-gps
 
-#### バッファーライン
+### バッファーライン
 
 66. [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim): バッファーライン。作者が akinsho さんで安心できる。
 
 https://github.com/akinsho/bufferline.nvim
 
-#### ハイライト系
+### ハイライト系
 
 67. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate): カーソルが当たった単語を光らせる。なにげに LSP とかに対応してる。
 
@@ -371,51 +371,51 @@ https://github.com/folke/todo-comments.nvim
 
 https://github.com/mvllow/modes.nvim
 
-#### レイアウト系
+### レイアウト系
 
 73. [myusuf3/numbers.vim](https://github.com/myusuf3/numbers.vim): InsertMode のときに相対行を絶対行に切り替えてくれる。
 
 https://github.com/myusuf3/numbers.vim
 
-#### サイドバー
+### サイドバー
 
 74. [GustavoKatel/sidebar.nvim](https://github.com/GustavoKatel/sidebar.nvim): Git の状態とか Diagnostics とかファイル一覧とかが表示されてるサイドバーを表示する。
 
 https://github.com/GustavoKatel/sidebar.nvim
 
-#### メニュー
+### メニュー
 
 75. [sunjon/stylish.nvim](https://github.com/sunjon/stylish.nvim): むちゃくちゃかっこいいいろんな UI パーツが入っている。メニューもある。
 
 https://github.com/sunjon/stylish.nvim
 
-#### スタートアップ画面
+### スタートアップ画面
 
 76. [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim): 起動時にファイル名の引数なしで起動した場合に表示するスタートアップ画面を設定できる。
 
 https://github.com/goolord/alpha-nvim
 
-#### スクロールバー
+### スクロールバー
 
 77. [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar): スクロールバーを表示する。hlslens と組み合わせれば検索したワードがどこらへんにあるかもわかるようになる。革命
 
 https://github.com/petertriho/nvim-scrollbar
 
-#### カーソル
+### カーソル
 
 78. [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim): カーソルが大きく移動したときにエフェクトを発生させる。かっこいい。ただそれだけ。入れてるけど基本無効にして飛び道具披露したいときにオンにする。
 
 https://github.com/edluffy/specs.nvim
 
-### 移動系
+## 移動系
 
-#### 選択移動
+### 選択移動
 
 79. [phaazon/hop.nvim](https://github.com/phaazon/hop.nvim): Easymotion のようにラベルを指定してジャンプする。離れた特定の単語に飛ぶときによく使っている。高速に動作するところが ○
 
 https://github.com/phaazon/hop.nvim
 
-#### 縦方向移動
+### 縦方向移動
 
 80. [unblevable/quick-scope](https://github.com/unblevable/quick-scope): 今いる行の f で一発（または二発）で飛べる単語をハイライトしてくれる
 
@@ -425,7 +425,7 @@ https://github.com/unblevable/quick-scope
 
 https://github.com/ggandor/lightspeed.nvim
 
-#### 縦方向移動
+### 縦方向移動
 
 82. [haya14busa/vim-edgemotion](https://github.com/haya14busa/vim-edgemotion): 縦方向のいい感じの区切りの位置にジャンプ移動してくれる。
 
@@ -435,7 +435,7 @@ https://github.com/haya14busa/vim-edgemotion
 
 https://github.com/machakann/vim-columnmove
 
-#### 単語移動
+### 単語移動
 
 84. [justinmk/vim-ipmotion](https://github.com/justinmk/vim-ipmotion): {}での移動をカスタマイズできる。
 
@@ -449,7 +449,7 @@ https://github.com/bkad/CamelCaseMotion
 
 https://github.com/yutkat/wb-only-current-line.vim
 
-#### 移動履歴ジャンプ
+### 移動履歴ジャンプ
 
 87. [osyo-manga/vim-milfeulle](https://github.com/osyo-manga/vim-milfeulle): jumplist と違い 1 バッファー内のみでの変更履歴にジャンプできる。
 
@@ -459,9 +459,9 @@ https://github.com/osyo-manga/vim-milfeulle
 
 https://github.com/Bakudankun/BackAndForward.vim
 
-### 編集支援系
+## 編集支援系
 
-#### 選択
+### 選択
 
 89. [terryma/vim-expand-region](https://github.com/terryma/vim-expand-region): 選択領域を徐々に広げることができる。treesitter でも一応同じことができる。
 
@@ -475,7 +475,7 @@ https://github.com/terryma/vim-multiple-cursors
 
 https://github.com/kana/vim-niceblock
 
-#### 編集サポート
+### 編集サポート
 
 92. [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align): 指定のスタイルにコードを整形できる。フォーマッターを使うのが普通になってきたのであまり使うことがなくなってきた。
 
@@ -489,11 +489,11 @@ https://github.com/thinca/vim-partedit
 
 https://github.com/yutkat/delete-word-to-chars.vim
 
-#### Textobject
+### Textobject
 
 Treesitter のものを使っている
 
-#### Operator
+### Operator
 
 95. [mopp/vim-operator-convert-case](https://github.com/mopp/vim-operator-convert-case): camel case や snake case を簡単に切り替えられる。地味にすごく便利。
 
@@ -507,13 +507,13 @@ https://github.com/gbprod/substitute.nvim
 
 https://github.com/machakann/vim-sandwich
 
-#### Join
+### Join
 
 98. [AckslD/nvim-revJ.lua](https://github.com/AckslD/nvim-revJ.lua): 行の方法分割を指定できる。
 
 https://github.com/AckslD/nvim-revJ.lua
 
-#### 値の加算・減算
+### 値の加算・減算
 
 99. [deris/vim-rengbang](https://github.com/deris/vim-rengbang): 連番生成が便利になる。
 
@@ -523,7 +523,7 @@ https://github.com/deris/vim-rengbang
 
 https://github.com/monaqa/dial.nvim
 
-#### ヤンク
+### ヤンク
 
 101. [gbprod/yanky.nvim](https://github.com/gbprod/yanky.nvim): yankring みたいにヤンクした履歴を順番に貼り付けられる。
 
@@ -537,7 +537,7 @@ https://github.com/AckslD/nvim-neoclip.lua
 
 https://github.com/yutkat/save-clipboard-on-exit.vim
 
-#### ペースト
+### ペースト
 
 104. [yutkat/auto-paste-mode.vim](https://github.com/yutkat/auto-paste-mode.vim): 中央クリックでペーストした際に自動で paste mode になる。
 
@@ -551,9 +551,9 @@ https://github.com/tversteeg/registers.nvim
 
 https://github.com/AckslD/nvim-anywise-reg.lua
 
-### 検索系
+## 検索系
 
-#### 検索
+### 検索
 
 107. [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens): 検索時に今のカーソルの隣に何個目のマッチしたものかを floating で表示してくれる。とても便利。
 
@@ -563,7 +563,7 @@ https://github.com/kevinhwang91/nvim-hlslens
 
 https://github.com/haya14busa/vim-asterisk
 
-#### 置換
+### 置換
 
 109. [lambdalisue/reword.vim](https://github.com/lambdalisue/reword.vim): camel case とか snake case とか気にせずに一括置換できる。正直使ったことがないが、いつかのために入れてある。
 
@@ -573,21 +573,21 @@ https://github.com/lambdalisue/reword.vim
 
 https://github.com/haya14busa/vim-metarepeat
 
-#### Grep
+### Grep
 
 111. [windwp/nvim-spectre](https://github.com/windwp/nvim-spectre): grep ツール。基本は telescope を使うが稀に正規表現したいときにこちらを使うこともある。
 
 https://github.com/windwp/nvim-spectre
 
-### ファイル操作系
+## ファイル操作系
 
-#### ファイラー
+### ファイラー
 
 112. [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim): Lua 製の高機能ファイラー。開発が活発でよい。
 
 https://github.com/nvim-neo-tree/neo-tree.nvim
 
-#### バッファ操作
+### バッファ操作
 
 113. [wsdjeg/vim-fetch](https://github.com/wsdjeg/vim-fetch): `:e`とかで行数指定した形式でもファイルが開ける。
 
@@ -601,7 +601,7 @@ https://github.com/famiu/bufdelete.nvim
 
 https://github.com/stevearc/stickybuf.nvim
 
-#### ウィンドウ操作
+### ウィンドウ操作
 
 116. [tkmpypy/chowcho.nvim](https://github.com/tkmpypy/chowcho.nvim): ウィンドウをラベルで選択できる（Easymotion みたいに）。あんまりウィンドウ開かない（多くても 4 つ）からそんない使ってはない。
 
@@ -611,33 +611,33 @@ https://github.com/tkmpypy/chowcho.nvim
 
 https://github.com/kwkarlwang/bufresize.nvim
 
-### 標準機能拡張系
+## 標準機能拡張系
 
-#### Undo
+### Undo
 
 118. [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo): undo 履歴をかっこよくグラフ的に表示してくれる。私はあまり使った記憶がないけど・・・
 
 https://github.com/simnalamburt/vim-mundo
 
-#### Diff
+### Diff
 
 119. [AndrewRadev/linediff.vim](https://github.com/AndrewRadev/linediff.vim): 2 つの範囲選択した部分の差分を比較してくれる。重複コードとか調べるときとかも地味に便利。
 
 https://github.com/AndrewRadev/linediff.vim
 
-#### Mark
+### Mark
 
 120. [chentau/marks.nvim](https://github.com/chentau/marks.nvim): mark があれば sign のエリアに表示してくれる。便利。
 
 https://github.com/chentau/marks.nvim
 
-#### Fold
+### Fold
 
 121. [lambdalisue/readablefold.vim](https://github.com/lambdalisue/readablefold.vim): fold の表示をいい感じにしてくれる。fold は全く使わないけど一応入れている。
 
 https://github.com/lambdalisue/readablefold.vim
 
-#### Manual
+### Manual
 
 122. [thinca/vim-ref](https://github.com/thinca/vim-ref): w3m などを使ってバッファー上にブラウザの結果をテキスト表示できる。英単語を調べたりするときはブラウザで調べるよりも速くて便利。
 
@@ -647,13 +647,13 @@ https://github.com/thinca/vim-ref
 
 https://github.com/folke/which-key.nvim
 
-#### Tag
+### Tag
 
 124. [jsfaint/gen_tags.vim](https://github.com/jsfaint/gen_tags.vim): タグファイルを自動生成してくれる。LSP が出てきたおかげで利用頻度はかなり減った。
 
 https://github.com/jsfaint/gen_tags.vim
 
-#### Quickfix
+### Quickfix
 
 125. [drmingdrmer/vim-toggle-quickfix](https://github.com/drmingdrmer/vim-toggle-quickfix): quickfix list と location list をトグルできるようになる。
 
@@ -667,7 +667,7 @@ https://github.com/kevinhwang91/nvim-bqf
 
 https://github.com/gabrielpoca/replacer.nvim
 
-#### Session
+### Session
 
 128. [rmagatti/auto-session](https://github.com/rmagatti/auto-session): セッションを自動保存してくれる。これで終了してもすぐ同じ環境立ち上げられる。
 
@@ -677,19 +677,19 @@ https://github.com/rmagatti/auto-session
 
 https://github.com/rmagatti/session-lens
 
-#### Macro
+### Macro
 
 130. [zdcthomas/medit](https://github.com/zdcthomas/medit): マクロを簡単に編集できる。あまり使ってないがいざというときに必要な気もするので入れてある。
 
 https://github.com/zdcthomas/medit
 
-#### SpellCorrect
+### SpellCorrect
 
 131. [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim): 設定しておけばよくタイポする文字を自動修正してくれる。
 
 https://github.com/Pocco81/AbbrevMan.nvim
 
-#### Command
+### Command
 
 132. [tyru/capture.vim](https://github.com/tyru/capture.vim): コマンドの結果をバッファに書き込んでくれる。デバッグするときとかにとても便利。標準で入れて欲しいレベル。
 
@@ -707,57 +707,57 @@ https://github.com/sQVe/sort.nvim
 
 https://github.com/yutkat/confirm-quit.nvim
 
-#### History
+### History
 
 136. [yutkat/history-ignore.vim](https://github.com/yutkat/history-ignore.vim): 必要ないコマンドをコマンド履歴に登録しないようにする。
 
 https://github.com/yutkat/history-ignore.vim
 
-#### Terminal
+### Terminal
 
 137. [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim): 標準のターミナルを使いやすくしたターミナル拡張。
 
 https://github.com/akinsho/toggleterm.nvim
 
-#### Backup
+### Backup
 
 138. [aiya000/aho-bakaup.vim](https://github.com/aiya000/aho-bakaup.vim): バックアップを取ってくれる。あまりお世話になったことはないけど保険があることに越したことはない。
 
 https://github.com/aiya000/aho-bakaup.vim
 
-### 新規機能追加系
+## 新規機能追加系
 
-#### 翻訳
+### 翻訳
 
 139. [voldikss/vim-translator](https://github.com/voldikss/vim-translator): Google 翻訳とかで翻訳できるようになる。
 
 https://github.com/voldikss/vim-translator
 
-#### スクリーンショット
+### スクリーンショット
 
 140. [segeljakt/vim-silicon](https://github.com/segeljakt/vim-silicon): 選択した部分のコードを画像として出力することができる。
 
 https://github.com/segeljakt/vim-silicon
 
-#### コマンドパレット
+### コマンドパレット
 
 141. [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim): VS Code のコマンドパレットのようなものが使える。全然使ってないがいつか使いこなしたい。
 
 https://github.com/mrjones2014/legendary.nvim
 
-#### メモ
+### メモ
 
 142. [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim): zettelkasten スタイルのメモ管理ができる。外部コマンドに依存していないところがいい。
 
 https://github.com/renerocksai/telekasten.nvim
 
-#### バイナリエディタ
+### バイナリエディタ
 
 143. [Shougo/vinarise.vim](https://github.com/Shougo/vinarise.vim): Linux でまともなバイナリエディタがないので Linux アプリを含めてもこれしか選択肢がない。個人的には Vim プラグインという枠を飛び越えてる。新作の開発が着手されたという話なので期待したい。https://github.com/Shougo/ddx.vim
 
 https://github.com/Shougo/vinarise.vim
 
-#### ブラウザ連携
+### ブラウザ連携
 
 144. [tyru/open-browser.vim](https://github.com/tyru/open-browser.vim): ブラウザと連携することができる。
 
@@ -767,21 +767,21 @@ https://github.com/tyru/open-browser.vim
 
 https://github.com/tyru/open-browser-github.vim
 
-#### テンプレートによる定型文生成
+### テンプレートによる定型文生成
 
 146. [mattn/vim-sonictemplate](https://github.com/mattn/vim-sonictemplate): Lua 製のものでも同じような機能のものがあるが、小回りが効かなかったのでこちらを使い続けている。
 
 https://github.com/mattn/vim-sonictemplate
 
-#### アクティビティ記録
+### アクティビティ記録
 
 147. [wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime): すべての自分の活動を記録したいデータ厨のために wakatime https://wakatime.com と連携できるようになる。ちなみに私は記録したいけど、特に見直さない派なのでたぶん設定したいだけ。
 
 https://github.com/wakatime/vim-wakatime
 
-### コーディング関連
+## コーディング関連
 
-#### ライティング支援
+### ライティング支援
 
 148. [zsugabubus/crazy8.nvim](https://github.com/zsugabubus/crazy8.nvim): `tabstop`, `shiftwidth`, `softtabstop`, `expandtab`をファイルから自動で設定してくれる。
 
@@ -791,7 +791,7 @@ https://github.com/zsugabubus/crazy8.nvim
 
 https://github.com/lfilho/cosco.vim
 
-#### リーディング支援
+### リーディング支援
 
 150. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim): インデントを見やすくしてくれる。
 
@@ -801,7 +801,7 @@ https://github.com/lukas-reineke/indent-blankline.nvim
 
 https://github.com/kristijanhusak/line-notes.nvim
 
-#### コメント
+### コメント
 
 152. [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim): 機能が多いコメントアウトプラグイン。
 
@@ -819,7 +819,7 @@ https://github.com/LudoPinelli/comment-box.nvim
 
 https://github.com/danymat/neogen
 
-#### 括弧
+### 括弧
 
 156. [andymass/vim-matchup](https://github.com/andymass/vim-matchup): treesitter にも対応している括弧をマッチさせるプラグインの決定版。
 
@@ -833,13 +833,13 @@ https://github.com/windwp/nvim-autopairs
 
 https://github.com/windwp/nvim-ts-autotag
 
-#### コードジャンプ
+### コードジャンプ
 
 159. [rgroli/other.nvim](https://github.com/rgroli/other.nvim): 条件に一致した複数のファイル間をジャンプできる。例えばコードとテストコード間のファイルを行き来するなど。
 
 https://github.com/rgroli/other.nvim
 
-#### テスト
+### テスト
 
 160. [klen/nvim-test](https://github.com/klen/nvim-test): 複数の言語に対応しているテストランナー
 
@@ -849,19 +849,19 @@ https://github.com/klen/nvim-test
 
 https://github.com/michaelb/sniprun
 
-#### タスクランナー
+### タスクランナー
 
 162. [yutkat/taskrun.nvim](https://github.com/yutkat/taskrun.nvim): シェルのコマンドを toggleterm で実行できるようにする。
 
 https://github.com/yutkat/taskrun.nvim
 
-#### Lint
+### Lint
 
 163. [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim): 機能が多い汎用 Language Server 。私は Linter, formatter としてしか使ってないが他にもいろいろできる。有名なのだと mattn/efm-langserver などがある。
 
 https://github.com/jose-elias-alvarez/null-ls.nvim
 
-#### Formatter
+### Formatter
 
 - フォーマッター自体は null-ls.nvim を使っている
 
@@ -873,13 +873,13 @@ https://github.com/gpanders/editorconfig.nvim
 
 https://github.com/ntpeters/vim-better-whitespace
 
-#### コードアウトライン
+### コードアウトライン
 
 166. [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim): nvim-lsp を使ってコードアウトライン（そのファイルにあるクラスや関数の一覧）を作ってくれる。
 
 https://github.com/stevearc/aerial.nvim
 
-#### スニペット
+### スニペット
 
 167. [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip): 設定が難しいがすごく高機能なスニペット。
 
@@ -889,13 +889,13 @@ https://github.com/L3MON4D3/LuaSnip
 
 https://github.com/kevinhwang91/nvim-hclipboard
 
-#### スニペット定義
+### スニペット定義
 
 169. [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets): スニペット定義ファイル。
 
 https://github.com/rafamadriz/friendly-snippets
 
-#### プロジェクト
+### プロジェクト
 
 170. [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim): プロジェクトを切り替えられる。私は 1 プロジェクト 1Neovim 派なのでプロジェクトルートの切り替えにしか使っていない。
 
@@ -905,7 +905,7 @@ https://github.com/ahmedkhalf/project.nvim
 
 https://github.com/klen/nvim-config-local
 
-#### Git
+### Git
 
 172. [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit): 高機能 Git クライアント。
 
@@ -927,7 +927,7 @@ https://github.com/lewis6991/gitsigns.nvim
 
 https://github.com/yutkat/convert-git-url.vim
 
-#### Git コマンドからの連携
+### Git コマンドからの連携
 
 177. [rhysd/committia.vim](https://github.com/rhysd/committia.vim): シェルから`git commit`したときにかっこいい感じでコミット用にカスタマイズされた画面を起動してくれる。
 
@@ -937,19 +937,19 @@ https://github.com/rhysd/committia.vim
 
 https://github.com/hotwatermorning/auto-git-diff
 
-#### GitHub 連携
+### GitHub 連携
 
 179. [pwntester/octo.nvim](https://github.com/pwntester/octo.nvim): gh コマンド的なことが Neovim 上でできるようになる。
 
 https://github.com/pwntester/octo.nvim
 
-#### デバッグ
+### デバッグ
 
 180. [sentriz/vim-print-debug](https://github.com/sentriz/vim-print-debug): printf デバッグが捗る。
 
 https://github.com/sentriz/vim-print-debug
 
-#### デバッガー
+### デバッガー
 
 181. [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap): Neovim でも UI でデバッガーしたいってときに使う。思いの外ちゃんと動くが、DAP がちゃんと動いていることを確認できるまで多少がんばる必要がある。
 
@@ -967,17 +967,17 @@ https://github.com/theHamsta/nvim-dap-virtual-text
 
 https://github.com/nvim-telescope/telescope-dap.nvim
 
-#### REPL
+### REPL
 
 185. [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim): Neovim 上で REPL することができる。REPL プラグインは実はたくさんあるが Lua 製だとこれがメジャーだと思われる。
 
 https://github.com/hkupty/iron.nvim
 
-### 言語固有プラグイン
+## 言語固有プラグイン
 
 treesitter や LSP 側に寄せているので言語固有のプラグインはそんなに必要ないが足りない部分を補ってくれるものは入れてある。
 
-#### JavaScript
+### JavaScript
 
 186. [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim): package.json のパッケージが最新かどうかわかる。
 
@@ -987,13 +987,13 @@ https://github.com/vuki656/package-info.nvim
 
 https://github.com/bennypowers/nvim-regexplainer
 
-#### Rust
+### Rust
 
 188. [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim): Rust に特化したいくつかの機能が入っている。
 
 https://github.com/simrat39/rust-tools.nvim
 
-#### Markdown
+### Markdown
 
 189. [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim): Markdown をブラウザ上でプレビューしてくれる。スクロールも追尾してくれる。
 
@@ -1007,25 +1007,25 @@ https://github.com/SidOfc/mkdx
 
 https://github.com/dhruvasagar/vim-table-mode
 
-### SQL
+## SQL
 
 192. [alcesleo/vim-uppercase-sql](https://github.com/alcesleo/vim-uppercase-sql): SQL を書いたら大文字にしてくれる。
 
 https://github.com/alcesleo/vim-uppercase-sql
 
-#### CSV
+### CSV
 
 193. [chen244/csv-tools.lua](https://github.com/chen244/csv-tools.lua): CSV をカラムごとに色付けしてくれる。色付けする範囲も絞れるので重くなりにくい。
 
 https://github.com/chen244/csv-tools.lua
 
-#### Log
+### Log
 
 194. [MTDL9/vim-log-highlighting](https://github.com/MTDL9/vim-log-highlighting): 一般的なログファイルを色付けしてくれる。
 
 https://github.com/MTDL9/vim-log-highlighting
 
-#### Neovim Lua 開発用
+### Neovim Lua 開発用
 
 195. [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev): REPL のような感じで Neovim Lua を開発できる。一応入れている。
 
@@ -1035,7 +1035,7 @@ https://github.com/bfredl/nvim-luadev
 
 https://github.com/wadackel/nvim-syntax-info
 
-## さいごに
+# さいごに
 
 ざっと紹介しましたが量が多くて、くぅ〜疲れました w （文章を書くというよりも連番振るのとリンク貼るの）
 

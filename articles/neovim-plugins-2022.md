@@ -1041,4 +1041,4 @@ https://github.com/wadackel/nvim-syntax-info
 
 ちなみに 2022 年の春に使っていたものをまとめただけで今後更新するつもりはないので、**今** 私がなにを使っているか知りたい場合はこちらをご覧ください 🙇
 
-https://github.com/yutkat/dotfiles/blob/master/.config/nvim/lua/rc/pluginlist.lua
+https://github.com/yutkat/dotfiles/blob/main/.config/nvim/lua/rc/pluginlist.lua

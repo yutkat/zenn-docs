@@ -238,7 +238,7 @@ return {
 ![overview](https://user-images.githubusercontent.com/8683947/155835836-56cedf64-c24e-41bb-bfda-04f411261480.png)
 
 設定はこちらです。
-https://github.com/yutkat/dotfiles/tree/master/.config/wezterm
+https://github.com/yutkat/dotfiles/tree/main/.config/wezterm
 
 ### 移行してよかったこと
 
